@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>privacy policy for dyloo (@dyl99bot)</title>
+<style>
+  body { font-family: sans-serif; max-width: 640px; margin: 2em auto; padding: 0 1em; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.4em; }
+  h2 { font-size: 1.1em; margin-top: 1.5em; }
+</style>
+</head>
+<body>
+<h1>privacy policy for dyloo (@dyl99bot)</h1>
+<p>last updated: 25 nov 2026</p>
+
+<h2>what this bot is</h2>
+<p>this bot moderates telegram groups. it deletes spam messages and keeps track of a whitelist so people you like never get banned.</p>
+
+<h2>what data it collects</h2>
+<p><strong>user ids and first names</strong></p>
+<ul>
+<li>when an admin adds someone to the whitelist with /whitelist, the bot saves their telegram user id and first name in a file called whitelist.json</li>
+<li>this is only so the bot knows who not to ban</li>
+</ul>
+<p><strong>messages</strong></p>
+<ul>
+<li>the bot reads messages in groups its added to, but only to check if they look like spam (links, floods, duplicates)</li>
+<li>it does not save your messages. once it checks a message its gone, it doesnt store the text anywhere</li>
+</ul>
+<p><strong>strike counts</strong></p>
+<ul>
+<li>if someone who isnt whitelisted sends spam, the bot counts a strike</li>
+<li>strikes are only kept in memory while the bot is running. if the bot restarts, strikes reset to zero</li>
+</ul>
+
+<h2>what it does with the data</h2>
+<ul>
+<li>the whitelist is only used to stop the bot from banning people you like</li>
+<li>strike counts are only used to decide when someone has spammed 3 times and should be banned</li>
+<li>thats it. the bot doesnt use your data for anything else</li>
+</ul>
+
+<h2>what it does NOT do</h2>
+<ul>
+<li>it does not sell your data to anyone</li>
+<li>it does not share your data with anyone outside the group</li>
+<li>it does not track you outside of groups its added to</li>
+<li>it does not read your private messages or dms</li>
+<li>it does not store your messages</li>
+</ul>
+
+<h2>where data is stored</h2>
+<ul>
+<li>the whitelist is stored in a file on the server where the bot runs</li>
+<li>strikes are stored in memory only, they disappear when the bot restarts</li>
+<li>no data is sent to any third party services</li>
+</ul>
+
+<h2>your rights</h2>
+<ul>
+<li>if youre on the whitelist and want to be removed, ask an admin to use /unwhitelist on one of your messages</li>
+<li>if you want to know what data the bot has about you, ask an admin</li>
+<li>if you leave the group, the bot doesnt keep tracking you</li>
+</ul>
+
+<h2>changes to this policy</h2>
+<p>if this policy changes, the new version will be posted here. check back every now and then.</p>
+
+<h2>contact</h2>
+<p>if you have questions about this policy or the bot, message @dyl99bot on telegram.</p>
+</body>
+</html>
